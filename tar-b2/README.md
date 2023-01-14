@@ -13,7 +13,7 @@ docker run --rm --net=host \
     -e B2_APP_KEY=xyz \
     -e B2_BUCKET_NAME=mybucket \
     -e B2_FILE_NAME=mydata.tar.gz \
-    okaeri/backup-mysql-b2
+    okaeri/backup-tar-b2
 ```
 
 #### Nomad (periodic job, host mount)
